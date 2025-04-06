@@ -19,3 +19,4 @@
 * Azure Functions provide a 17% discount on a savings plan over both 1 year term or 3 year term.
 
 * You can transfer your reservations to savings plan.
+    * https://learn.microsoft.com/en-us/azure/cost-management-billing/savings-plan/reservation-trade-in
