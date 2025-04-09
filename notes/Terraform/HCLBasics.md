@@ -17,11 +17,12 @@
     |               |               |
     |               |               |
     v               v               v
-````
+```
 resource "azurerm_resource_group" "RG" {              |       
     name     = "test"                                 |       
     location = "australia easy"                       |     
 }
+
 ```
 
 * Resource is a thing which Terraform will manage, such as VMs or AKS. 
