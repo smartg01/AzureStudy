@@ -18,7 +18,7 @@ Within the the provider block, you can specify multiple providers which will be 
 
 Unless specified the TF config will always download the latest version of the provider. You will need to specify the version you want in the provider block. You can also specify a range of providers that you want to use, for example
 
-```
+```bash
 version = ">1.2.0, <2.0.0, !=1.4.0"
 ```
 
@@ -33,13 +33,13 @@ version = ">1.2.0, <2.0.0, !=1.4.0"
 
 The ~> operator, often referred to as the pessimistic constraint operator, is used in version constraints to specify a range of acceptable versions while allowing updates that do not break compatibility. It is commonly used in Terraform and other tools to ensure that minor or patch updates are allowed, but major version changes are not.
 
-```
+```bash
 version = "~> 1.2.0"
 ```
 
 The above will only allow version 1.2.0, 1.2.1, 1.2.2 until 1.2.9 (or unless it runs out before).
 
-```
+```bash
 version = "~> 1.2"
 ```
 
