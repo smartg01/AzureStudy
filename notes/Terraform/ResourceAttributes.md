@@ -4,7 +4,7 @@ Terraform resources has several attributes depending on the resource itself. The
 
 For example:
 
-```
+```terraform
 resource "azurerm_resource_group" "rg" {
     name = ""
     location = ""
