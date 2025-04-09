@@ -17,11 +17,11 @@
     |               |               |
     |               |               |
     v               v               v
-
-resource "azurerm_resource_group" "RG" {              |       <------------------ _Block is defined by curly brackets_
-    name     = "test"                                 |       <------------------ _Arguments for resource_
-    location = "australia easy"                       |       <------------------
+````
+resource "azurerm_resource_group" "RG" {              |       
+    name     = "test"                                 |       
+    location = "australia easy"                       |     
 }
-
+```
 
 * Resource is a thing which Terraform will manage, such as VMs or AKS. 
