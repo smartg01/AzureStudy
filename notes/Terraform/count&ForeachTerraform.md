@@ -46,5 +46,5 @@ rg_names = {
     "name1" = "australiaeast"
     "name2" = "australiasoutheast"
 }
-
+```
 When this is run via Terraform, the resources will be created with unique keys, such as azurerm_resource_group.rg["name1"] and azurerm_resource_group.rg["name2"]. Unlike count, for_each ensures that changes to the map (e.g., adding or removing entries) do not affect unrelated resources. This makes for_each more suitable for managing resources with unique identifiers.
